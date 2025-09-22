@@ -1,0 +1,7 @@
+pandas
+plotly
+kaleido              # for saving Plotly to PNG
+python-dotenv
+snowflake-connector-python
+snowflake-sqlalchemy
+SQLAlchemy>=2.0

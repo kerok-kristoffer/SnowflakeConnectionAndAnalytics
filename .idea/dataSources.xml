@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="AIRFLOW_DB@MBZIHTP-GZ32300.snowflakecomputing.com" uuid="ce5d3b28-d748-41f4-9b51-09fe4c33097e">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://MBZIHTP-GZ32300.snowflakecomputing.com:443?warehouse=COMPUTE_WH&amp;db=AIRFLOW_DB</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="WALMART_DB@MBZIHTP-GZ32300.snowflakecomputing.com" uuid="ca2b58c6-f034-4cc0-9218-8ae470a3c8ef">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://MBZIHTP-GZ32300.snowflakecomputing.com:443?warehouse=COMPUTE_WH&amp;db=WALMART_DB</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
